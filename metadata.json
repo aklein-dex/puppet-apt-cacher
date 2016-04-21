@@ -1,0 +1,38 @@
+{
+  "name": "alexklein-apt_cacher",
+  "version": "1.0.0",
+  "author": "aklein",
+  "summary": "Installs, configures, and manages apt-cacher.",
+  "license": "Apache-2.0",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 2.4.0 < 5.0.0"}
+  ],
+  "source": "git://github.com/aklein-dex/puppet-apt-cacher.git",
+  "project_page": "https://github.com/aklein-dex/puppet-apt-cacher",
+  "issues_url": "https://github.com/aklein-dex/puppet-apt-cacher/issues",
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "tags": ["apt", "apt-cacher", "aptcacher", "package" ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ]
+}

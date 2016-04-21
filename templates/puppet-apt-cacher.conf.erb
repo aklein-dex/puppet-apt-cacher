@@ -1,0 +1,101 @@
+# This file is managed by Puppet, module apt_cacher.
+# Custom configuration for <%= @package_name %> package.
+
+group = <%= @group %>
+user  = <%= @user %>
+<% if @cache_dir -%>
+cache_dir = <%= @cache_dir %>
+<% end -%>
+<% if @log_dir -%>
+log_dir = <%= @log_dir %>
+<% end -%>
+<% if @admin_email -%>
+admin_email = <%= @admin_email %>
+<% end -%>
+<% if @daemon_port -%>
+daemon_port = <%= @daemon_port%>
+<% end -%>
+<% if @daemon_addr -%>
+daemon_addr = <%= @daemon_addr %>
+<% end -%>
+<% if @offline_mode -%>
+offline_mode = <%= @offline_mode %>
+<% end -%>
+<% if @checksum -%>
+checksum = <%= @checksum %>
+<% end -%>
+<% if @concurrent_import_limit -%>
+concurrent_import_limit = <%= @concurrent_import_limit %>
+<% end -%>
+<% if @http_proxy -%>
+http_proxy = <%= @http_proxy %>
+<% end -%>
+<% if @http_proxy_auth -%>
+http_proxy_auth = <%= @http_proxy_auth %>
+<% end -%>
+<% if @use_proxy -%>
+use_proxy = <%= @use_proxy %>
+<% end -%>
+<% if @use_proxy_auth -%>
+use_proxy_auth = <%= @use_proxy_auth %>
+<% end -%>
+<% if @interface -%>
+interface = <%= @interface %>
+<% end -%>
+<% if @limit -%>
+limit = <%= @limit %>
+<% end -%>
+<% if @path_map -%>
+path_map = <%= @path_map %>
+<% end -%>
+<% if @distinct_namespaces -%>
+distinct_namespaces = <%= @distinct_namespaces %>
+<% end -%>
+<% if @allowed_hosts -%>
+allowed_hosts = <%= @allowed_hosts %>
+<% end -%>
+<% if @denied_hosts -%>
+denied_hosts = <%= @denied_hosts %>
+<% end -%>
+<% if @allowed_ssl_locations -%>
+allowed_ssl_locations = <%= @allowed_ssl_locations %>
+<% end -%>
+<% if @allowed_ssl_ports -%>
+allowed_ssl_ports = <%= @allowed_ssl_ports %>
+<% end -%>
+<% if @allowed_locations -%>
+allowed_locations = <%= @allowed_locations %>
+<% end -%>
+<% if @ubuntu_release_names -%>
+ubuntu_release_names = <%= @ubuntu_release_names %>
+<% end -%>
+<% if @generate_reports -%>
+generate_reports = <%= @generate_reports %>
+<% end -%>
+<% if @clean_cache -%>
+clean_cache = <%= @clean_cache %>
+<% end -%>
+<% if @debug -%>
+debug = <%= @debug %>
+<% end -%>
+<% if @package_files_regexp -%>
+package_files_regexp = <%= @package_files_regexp %>
+<% end -%>
+<% if @pdiff_files_regexp -%>
+pdiff_files_regexp = <%= @pdiff_files_regexp %>
+<% end -%>
+<% if @index_files_regexp -%>
+index_files_regexp = <%= @index_files_regexp %>
+<% end -%>
+<% if @installer_files_regexp -%>
+installer_files_regexp = <%= @installer_files_regexp %>
+<% end -%>
+<% if @checksum_files_regexp -%>
+checksum_files_regexp = <%= @checksum_files_regexp %>
+<% end -%>
+<% if @skip_checksum_files_regexp -%>
+skip_checksum_files_regexp = <%= @skip_checksum_files_regexp %>
+<% end -%>
+<% if @soap_url_regexp -%>
+soap_url_regexp = <%= @soap_url_regexp %>
+<% end -%>
