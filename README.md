@@ -1,5 +1,7 @@
 # apt_cacher
 
+[![Build Status](https://travis-ci.org/aklein-dex/puppet-apt-cacher.svg?branch=master)](https://travis-ci.org/aklein-dex/puppet-apt-cacher)
+
 #### Table of Contents
 
 1. [Description](#description)
